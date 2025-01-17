@@ -301,18 +301,12 @@ body {
 }
 
 .how-to-box circle,
-.how-to-box text {
+.how-to-box text,
+.how-to-box foreignObject {
   transition: all 0.5s;
   cursor: pointer;
   font-size: 18px;
 }
-
-/* .how-to-box text {
-  transition: all 0.5s;
-  cursor: pointer;
-  font-size: 14px;
-  color: #fff;
-} */
 
 .how-to-box g:hover circle {
   r: 20px;
@@ -322,8 +316,20 @@ body {
 .how-to-box g:hover text {
   font-size: 36px;
   fill: #036cca;
+  transform: translateY(8px);
 }
 
-.how-to-box g:hover text {
-  transform: translateY(8px);
+.foreign-object-left {
+  text-align: left;
+}
+
+.foreign-object-right {
+  text-align: right;
+}
+
+.how-to-box g:hover foreignObject {
+  font-size: 24px;
+  line-height: 26px;
+  color: #036cca;
+  /* transform: translateY(14px); */
 }
