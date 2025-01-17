@@ -54,6 +54,7 @@ ol {
 }
 
 button {
+  font-family: 'sf-pro-display';
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -61,10 +62,25 @@ button {
   padding: 0;
 }
 
+.button {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px 0;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'spaceagecyrillic';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  padding: 100px 0;
 }
 
 body {
@@ -176,4 +192,98 @@ body {
 
 .header-description-text + .header-description-text {
   margin-left: 52px;
+}
+
+.about {
+  background-image: url('../images/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.about-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.about-img {
+  max-width: 100%;
+}
+
+.about-content {
+  width: 600px;
+}
+
+.about-content-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+.about-content-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #036cca;
+  margin-bottom: 31px;
+}
+
+.about-content-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 53px;
+  margin-bottom: 50px;
+}
+
+.about-content-text p {
+  width: 165px;
+}
+
+.about-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.about-table-caption {
+  caption-side: bottom;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.about-table-tr {
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+.about-table-tr + .about-table-tr {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-table-td {
+  padding: 10px 30px 10px 0;
+}
+
+.about-table-td span {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+}
+
+.about-btn {
+  padding: 20px 45px;
 }
