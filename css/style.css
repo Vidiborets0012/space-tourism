@@ -300,12 +300,30 @@ body {
   text-align: center;
 }
 
-.how-to-box circle {
+.how-to-box circle,
+.how-to-box text {
   transition: all 0.5s;
   cursor: pointer;
+  font-size: 18px;
 }
 
-.how-to-box circle:hover {
-  right: 20px;
+/* .how-to-box text {
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+} */
+
+.how-to-box g:hover circle {
+  r: 20px;
   fill: #036cca;
+}
+
+.how-to-box g:hover text {
+  font-size: 36px;
+  fill: #036cca;
+}
+
+.how-to-box g:hover text {
+  transform: translateY(8px);
 }
