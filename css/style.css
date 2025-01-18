@@ -698,6 +698,10 @@ body {
   top: 12px;
 }
 
+.how-to-box-list {
+  display: none;
+}
+
 @media screen and (max-width: 1160px) {
   .about {
     text-align: center;
@@ -784,6 +788,46 @@ body {
   .header {
     background-position: center right;
   }
+
+  .how-to {
+    text-align: center;
+  }
+
+  .how-to-box svg {
+    display: none;
+  }
+
+  .how-to-box-list {
+    display: block;
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .how-to-box-item {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .how-to-box-item:not(:last-child) {
+    border-left: 1px solid #fff;
+  }
+
+  .how-to-box-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -866,6 +910,17 @@ body {
     font-size: 20px;
     line-height: 22px;
     font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .how-to-box-list {
+    width: 100%;
   }
 }
 
