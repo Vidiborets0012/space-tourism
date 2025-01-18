@@ -511,7 +511,7 @@ body {
   background-size: cover;
   background-position: center center;
   right: 0;
-  bottom: 39px;
+  bottom: 41px;
 }
 
 .slider {
@@ -729,6 +729,20 @@ body {
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .special-offer-inner {
+    display: block;
+  }
+
+  .special-offer-item {
+    width: 100%;
+  }
+
+  .special-offer-btn {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .login {
     margin-right: 0;
@@ -844,9 +858,44 @@ body {
     background-color: #fff;
     border-radius: 50%;
   }
+
+  .services-inner {
+    display: block;
+  }
+
+  .serbices-box-list {
+    width: 100%;
+    margin-bottom: 170px;
+    margin-right: 0;
+  }
+
+  .serbices-box-buttons {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .slider-box-img {
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
+  .info,
+  .services {
+    padding-bottom: 50px;
+  }
+
+  .slider-inner {
+    padding: 0;
+  }
+
+  .slider-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .header-title {
     font-size: 34px;
     line-height: 30px;
@@ -938,6 +987,29 @@ body {
   .how-to-box-list {
     width: 100%;
   }
+
+  .special-offer-new-price {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .serbices-box-list {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .special-offer-item-box {
+    padding: 20px 10px;
+  }
+
+  .to-book-title,
+  .services-title {
+    font-size: 23px;
+  }
+
+  .slider-arrow {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -972,5 +1044,11 @@ body {
   .header-btn {
     font-size: 16px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .services-btn-first::before {
+    bottom: 62px;
   }
 }
