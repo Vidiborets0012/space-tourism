@@ -509,3 +509,38 @@ body {
   right: 0;
   bottom: 39px;
 }
+
+.slider {
+  text-align: center;
+}
+
+.slider-inner {
+  border: 1px solid #fff;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+
+.slider-box-img {
+  margin: 0 auto;
+}
+
+.slider-description {
+  font-family: 'spaceagecyrillic';
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.slider-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.slider-arrow-prev {
+  left: 75px;
+}
+
+.slider-arrow-next {
+  right: 75px;
+}
