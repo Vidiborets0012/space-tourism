@@ -566,10 +566,15 @@ body {
 
 .contacts-guarantees {
   width: 600px;
-  background-image: url(../images/guarantees-img-mask.png);
+  /* background-image: url(../images/guarantees-img-mask.png);
   background-repeat: no-repeat;
   background-size: 396px 396px;
-  background-position: right bottom;
+  background-position: right bottom; */
+}
+
+.contacts-guarantees-img {
+  display: block;
+  margin-left: auto;
 }
 
 .contacts-title,
@@ -740,6 +745,18 @@ body {
 
   .special-offer-btn {
     margin-bottom: 30px;
+  }
+
+  .contacts-inner {
+    display: block;
+  }
+
+  .contacts-box {
+    width: 100%;
+  }
+
+  .contacts-guarantees {
+    margin: 0 auto;
   }
 }
 
@@ -975,6 +992,28 @@ body {
     font-size: 20px;
     line-height: 22px;
     font-weight: 400;
+  }
+
+  .contacts {
+    padding-bottom: 50px;
+  }
+
+  .contacts-guarantees {
+    width: 100%;
+  }
+
+  .contacts-guarantees-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contacts-guarantees-img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .services-title {
+    font-size: 35px;
   }
 }
 
