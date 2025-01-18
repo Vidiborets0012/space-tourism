@@ -544,3 +544,73 @@ body {
 .slider-arrow-next {
   right: 75px;
 }
+
+.contacts {
+  background-color: #010203;
+  padding-bottom: 100px;
+}
+
+.contacts-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-box {
+  width: 500px;
+  margin-right: 100px;
+}
+
+.contacts-guarantees {
+  width: 600px;
+  background-image: url(../images/guarantees-img-mask.png);
+  background-repeat: no-repeat;
+  background-size: 396px 396px;
+  background-position: right bottom;
+}
+
+.contacts-title,
+.guarantees-title {
+  padding-bottom: 46px;
+}
+
+.contacts-box-text,
+.contacts-guarantees-text {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.contacts-box-text {
+  margin-bottom: 80px;
+}
+
+.contacts-form-input {
+  display: block;
+  width: 100%;
+  font-family: 'sf-pro-display';
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #010203;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 20px 10px 20px 0;
+}
+
+.contacts-form-input::placeholder {
+  font-family: 'sf-pro-display';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.contacts-form-input + .contacts-form-input {
+  margin-top: 32px;
+}
+
+.contacts-form-btn {
+  padding: 20px 40px;
+  width: 100%;
+  margin-top: 69px;
+}
