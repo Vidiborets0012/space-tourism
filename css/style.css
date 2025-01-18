@@ -429,3 +429,83 @@ body {
   width: 100%;
   padding: 20px;
 }
+
+.services {
+  padding-bottom: 200px;
+}
+
+.services-title {
+  padding-bottom: 82px;
+}
+
+.services-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.serbices-box-list {
+  width: 622px;
+  margin-right: 83px;
+}
+
+.services-list-title {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 25px;
+}
+
+.services-list {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 25px;
+}
+
+.services-list-item {
+  padding-left: 35px;
+  position: relative;
+}
+
+.services-list-item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 0;
+  top: 4px;
+}
+
+.services-description {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.serbices-box-buttons {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.services-btn {
+  padding: 20px;
+  width: 100%;
+}
+
+.services-btn-first {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.services-btn-first::before {
+  content: '';
+  position: absolute;
+  width: 192px;
+  height: 150px;
+  background-image: url(../images/services-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  right: 0;
+  bottom: 39px;
+}
