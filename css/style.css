@@ -1017,6 +1017,37 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .footer-inner {
+    display: block;
+  }
+
+  .footer-text {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .footer p + p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footer-menu-list,
+  .footer-links-list {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .footer-menu-list {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .title {
     font-size: 28px;
