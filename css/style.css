@@ -733,6 +733,22 @@ body {
   .login {
     margin-right: 0;
   }
+
+  .to-book {
+    background-position: top left;
+  }
+
+  .to-book-inner {
+    display: block;
+  }
+
+  .to-book-text {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 895px) {
